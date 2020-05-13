@@ -31,6 +31,7 @@ int main(int am, char** arr) {
     try {
         std::string file_name = arr[1];
         ret = reading_from_file(file_name);
+        int am_threadsPar = std::stoi(arr[2]);
 
     if (ret.size() < 10 ) {
         throw MyParsingError("Not enough arguments in the input file");
@@ -48,6 +49,8 @@ int main(int am, char** arr) {
         am_threads = std::stoi(ret[4]);
         m = std::stoi(ret[5]);
         stop_signal = std::stoi(ret[9]);
+
+        am_threads = am_threadsPar;
     }
     catch (std::invalid_argument&) {
         throw MyParsingError("Arguments in the file are not numeric");

@@ -1,0 +1,41 @@
+
+=================================start 8 treads
+Area: -1.60465
+Total time: 57916176
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 7 treads
+Area: -1.60465
+Total time: 63231262
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 6 treads
+Area: -1.60465
+Total time: 73588147
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 5 treads
+Area: -1.60465
+Total time: 89506199
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 4 treads
+Area: -1.60465
+Total time: 111485982
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 3 treads
+Area: -1.60465
+Total time: 147160400
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 2 treads
+Area: -1.60465
+Total time: 219972788
+Abs. error: 1e-08
+Rel. error: 0.001
+=================================start 1 treads
+Area: -1.60465
+Total time: 436810560
+Abs. error: 1e-08
+Rel. error: 0.001
